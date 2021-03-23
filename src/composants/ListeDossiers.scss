@@ -4,4 +4,24 @@
   padding: 10px 20px;
   justify-content: center;
   flex-wrap: wrap;
+
+  .ntfDosVid{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    color: #fff;
+    background-color:teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ntfDosVid>h2{
+    margin: 10px
+  }
+  .ntfDosVid>h1{
+    margin: auto;
+    font-size: 7em;
+  }
 }

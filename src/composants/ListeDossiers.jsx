@@ -34,9 +34,12 @@ export default function ListeDossiers({utilisateur, etatDossiers}) {
   return (
     <ul className="ListeDossiers">
       {
+        dossiers.length != 0 ?
         dossiers.map( 
           dossier =>  <li key={dossier.id}><Dossier {...dossier} /></li>
         )
+        :
+        <div class="ntfDosVid"> <h2>Votre liste de dossier est vide</h2> <h1>;-(</h1> </div>
       }
     </ul>
   );
